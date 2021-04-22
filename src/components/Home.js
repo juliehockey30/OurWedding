@@ -8,6 +8,10 @@ const ImageWrapper = styled.div`
     flex-direction: row;
     justify-content: center;
     max-width: 100%;
+
+    @media(max-width: 768px) {
+      flex-direction: column;
+    }
 `;
 
 const Image = styled.img`
