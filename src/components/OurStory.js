@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import {
     Timeline,
@@ -6,7 +6,6 @@ import {
     TimelineSeparator,
     TimelineConnector,
     TimelineContent,
-    TimelineDot
 } from '@material-ui/lab';
 import HeartIcon from '../assets/HeartIcon.png';
 import Aspen from '../assets/aspen.jpg';

@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import amazon from '../assets/amazon.jpg'
-import skiIcon from '../assets/skiIcon.png'
-import beachIcon from '../assets/beachIcon.png'
 
 const Wrapper = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@600&display=swap');
