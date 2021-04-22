@@ -10,6 +10,7 @@ const ImageWrapper = styled.div`
     max-width: 100%;
 
     @media(max-width: 768px) {
+      align-items: center;
       flex-direction: column;
     }
 `;
@@ -21,6 +22,7 @@ const Image = styled.img`
 
     @media(max-width: 768px) {
       margin: 0.75rem;
+      max-width: 75%;
     }
 `;
 
