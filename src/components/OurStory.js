@@ -175,7 +175,7 @@ const OurStory = () => {
         {date: 'August 2019', title: 'We got our Stanley!', description: 'Labor Day weekend 2019 soon became one of the most memorable as we packed up the car with plenty of chew toys and dog treats and drove to east Kansas to pick up and bring home our golden boy!', imagePath: Stanley},
         {date: 'January 2020', title: 'We went to Telluride for the first time!', description: 'In the first week of 2020, we went to Telluride, CO for a ski trip and it instantly became one of our favorite towns to visit. Whether it\'s camping in the summer or skiing in the winter, Telluride never disappoints with beautiful views, great brews, and the best company.', imagePath: Telluride},
         {date: 'June 2020', title: 'We hiked our first (4!) 14ers together!', description: 'Though we had each hiked 14ers before, on June 20th 2020 we set out to hike our first 14er (peaks in CO that summit abover 14,000ft elevation) together. That day we ended up summiting 4 peaks and later that summer we added 2 more to the completed list. 6 down, a lot to go!', imagePath: Fourteener},
-        {date: 'December 2020', title: 'We got engaged!', description: 'It was a Christmas morning that will always be remembered. Bryan hid the empty ring box inside his Christmas present to Julie. When she opened the gift and found the empty box, Bryan immediatly got down on one knee and pulled the actual ring out of his pocket.', imagePath: Engaged}
+        {date: 'December 2020', title: 'We got engaged!', description: 'It was a Christmas morning that will always be remembered. Bryan hid the empty ring box inside his Christmas present to Julie. When she opened the gift and found the empty box, Bryan immediately got down on one knee and pulled the actual ring out of his pocket.', imagePath: Engaged}
     ]
 
     const showDetails = (imageUrl, date, title, description) => {
@@ -193,7 +193,7 @@ const OurStory = () => {
 
     return (
         <>
-            <Subheader>Click on each date to learn a little  about why it's so speacial to the couple!</Subheader>
+            <Subheader>Click on each date to learn a little  about why it's so special to the couple!</Subheader>
             <StyledTimeline align="alternate">
                 {dates.map((event, index) => 
                     <TimelineItem key={event.date}>
