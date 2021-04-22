@@ -8,7 +8,7 @@ import {
     TimelineContent,
 } from '@material-ui/lab';
 import HeartIcon from '../assets/HeartIcon.png';
-import Aspen from '../assets/aspen.jpg';
+import July from '../assets/July.JPG';
 import Scooby from '../assets/scooby.jpg';
 import Skiing from '../assets/skiing.jpg';
 import OB from '../assets/oskar-blues.jpg';
@@ -168,7 +168,7 @@ const CloseIcon = styled.p`
 
 const OurStory = () => {
     const dates = [
-        {date: 'July, 2018', title: 'We first met! (Just as friends)', description: 'In July of 2018, we met through some mutual friends. Even though all of our interactions were in groups, we always seemed to find each other to talk 1 on 1. ', imagePath: Aspen},
+        {date: 'July, 2018', title: 'We first met! (Just as friends)', description: 'In July of 2018, we met through some mutual friends. Even though all of our interactions were in groups, we always seemed to find each other to talk 1 on 1. ', imagePath: July},
         {date: 'October, 2018', title: 'We began officially dating!', description: 'After a Halloween party and some epic couples costumes, Bryan officially asked Julie to be his girlfriend to which she replied "I thought I already was..."', imagePath: Scooby},
         {date: 'December, 2018', title: 'We went skiing together for the first time!', description: 'Growing up with frequent family vacations to Stowe, VT skiing has always been a passion for Bryan. He decided to share that passion with Julie for the first time at the end of 2018 and it soon became one of their favorite things to do together in the winter.', imagePath: Skiing},
         {date: 'June 2019', title: 'We moved in together!', description: 'Our first apartment together wasn\'t the biggest or newest pad on the block, but it sure was the perfect place for us to start building a home together.', imagePath: OB},
