@@ -38,11 +38,8 @@ const ToggleItem = styled.div`
 const CardsWrapper = styled.div`
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-
-    @media(max-width: 768px) {
-        flex-direction: column;
-    }
 `;
 
 const Card = styled.div`
