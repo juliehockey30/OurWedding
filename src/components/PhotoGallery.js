@@ -2,6 +2,20 @@ import React, { useState } from 'react'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-image-lightbox'
 import "react-image-lightbox/style.css"
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+    margin: 0 2rem 3rem 2rem;
+
+    > div > div > img {
+        transition: 0.3s ease-out;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease-out;
+          }
+    }
+`;
 
 const PhotoGallery = () => {
     const [photoIndex, setPhotoIndex] = useState(0)
@@ -20,7 +34,7 @@ const PhotoGallery = () => {
             width = 5
             height = 3.25
         } else {
-            width = 3.5
+            width = 3.375
             height = 5
         }
         images.push({width: width, height: height, src: mod.default})
@@ -38,7 +52,7 @@ const PhotoGallery = () => {
     }
 
     return (
-        <div>
+        <Wrapper>
             <Gallery photos={images} onClick={(e) => handleImageClick(e)} />
             {isOpen &&
                 <Lightbox
@@ -54,7 +68,7 @@ const PhotoGallery = () => {
                     }
                 />
             }
-        </div>
+        </Wrapper>
     );
   }
 
