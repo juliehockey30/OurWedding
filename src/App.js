@@ -7,6 +7,7 @@ import WeddingParty from './components/WeddingParty'
 import Accommodations from './components/Accommodations'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Helmet} from 'react-helmet';
+import PhotoGallery from './components/PhotoGallery'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/registry" component={Registry} />
             <Route path="/wedding-party" component={WeddingParty} />
             <Route path="/accommodations" component={Accommodations} />
+            <Route path="/photos" component={PhotoGallery} />
           </Switch>
         </Router>
       </>

@@ -90,15 +90,20 @@ const NavBar = () => {
                     onClick={() => setSelectedItem('/our-story')}
                 >OUR STORY</NavItem>
                 <NavItem
-                    to='/details'
-                    selected={selectedItem === '/details'}
-                    onClick={() => setSelectedItem('/details')}
-                >EVENT DETAILS</NavItem>
+                    to='/photos'
+                    selected={selectedItem === '/photos'}
+                    onClick={() => setSelectedItem('/photos')}
+                >PHOTOS</NavItem>
                 <NavItem
                     to='/wedding-party'
                     selected={selectedItem === '/wedding-party'}
                     onClick={() => setSelectedItem('/wedding-party')}
                 >WEDDING PARTY</NavItem>
+                <NavItem
+                    to='/details'
+                    selected={selectedItem === '/details'}
+                    onClick={() => setSelectedItem('/details')}
+                >EVENT DETAILS</NavItem>
                 <NavItem
                     to='/registry'
                     selected={selectedItem === '/registry'}
