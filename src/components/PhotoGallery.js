@@ -3,6 +3,7 @@ import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-image-lightbox'
 import "react-image-lightbox/style.css"
 import styled from 'styled-components'
+import PGLogoBlack from '../assets/PGLogoBlack.PNG'
 
 const Wrapper = styled.div`
     margin: 0 2rem 3rem 2rem;
@@ -17,6 +18,26 @@ const Wrapper = styled.div`
     }
 `;
 
+const Logo = styled.img`
+    cursor: pointer;
+    width: 8rem;
+`;
+
+const CreditWrapper = styled.div`
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+`;
+
+const Header = styled.p`
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@600&display=swap');
+
+    color: #34494c;
+    font-family: 'Poppins';
+    font-size: 1rem;
+`;
+
 const PhotoGallery = () => {
     const [photoIndex, setPhotoIndex] = useState(0)
     const [isOpen, setIsOpen] = useState(false)
@@ -25,7 +46,7 @@ const PhotoGallery = () => {
         return r.keys().map(r);
       }
 
-    const imagePathMods = importAll(require.context('../../src/assets/engagementPhotos', false, /\.(png|jpe?g|svg)$/))
+    const imagePathMods = importAll(require.context('../assets/engagementPhotos', false, /\.(png|jpe?g|svg)$/))
     const images = []
     let width = 0
     let height = 0
@@ -68,6 +89,10 @@ const PhotoGallery = () => {
                     }
                 />
             }
+            <CreditWrapper>
+                <Header>photos by</Header>
+                <Logo onClick={() => window.open('https://poppyandgild.com/', '_blank', 'noopener,noreferrer')} src={PGLogoBlack} />
+            </CreditWrapper>
         </Wrapper>
     );
   }
