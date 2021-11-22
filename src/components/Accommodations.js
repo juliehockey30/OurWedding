@@ -145,7 +145,7 @@ const Accommodations = () => {
         <Button href="https://www.inntopia.travel/ecomm/package/packagebuilder/662777/en-us/?packageid=58715&startDate=2022-09-09&endDate=2022-09-11&adultcount=2&childCount=0&forceChoice=1&childAgeArray=&promocode=Neuburger-Howard" target="_blank">RESERVE CLAY BROOK HOTEL ONLINE</Button>
         <TextBlock>There are also a number of local inns and B&B's in the area.</TextBlock>
         <SubText>Note that many of the local accommodations will likely not be availble to book until 2022.</SubText>
-        <Button href="https://www.sugarbush.com/plan/additional-lodging-directory/" target="_blank">LIST OF ADDITIONAL LODGING OPTIONS</Button>
+        <Button href="https://www.sugarbush.com/plan-your-trip/lodging/valley-lodging-directory" target="_blank">LIST OF ADDITIONAL LODGING OPTIONS</Button>
     </Wrapper>
   );
 }
