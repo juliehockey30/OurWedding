@@ -105,6 +105,20 @@ const Button = styled.a`
       }
 `;
 
+const UrgentWarrningText = styled.p`
+    color: #740100;
+    font-weight: 600;
+    margin: 0;
+
+    @media(max-width: 768px) {
+        font-size: 0.75rem;
+    }
+`;
+
+const WarningTextWrapper = styled.div`
+    margin: 1.5rem 0 0.5rem 0;
+`;
+
 const Accommodations = () => {
   return (
     <Wrapper>
@@ -123,7 +137,11 @@ const Accommodations = () => {
           <GreenText> Neuburger/Howard wedding </GreenText>
           to receive your discount.
         </BookingText>
-        <SubText>** Note that in order to book a 3 bedroom condo you must call and make your reservation. Only single rooms, 1 and 2 bedroom condos are eligible to book online. **</SubText>
+        <WarningTextWrapper>
+          <UrgentWarrningText>PLEASE NOTE! Sugarbush has been experiencing many issues with their online booking system.</UrgentWarrningText>
+          <UrgentWarrningText>If the specific room/condo you'd like to reserve is not listed as available online, there is a good chance it is still availble to book.</UrgentWarrningText>
+          <UrgentWarrningText>In this case, please call to make your reservation.</UrgentWarrningText>
+        </WarningTextWrapper>
         <Button href="https://www.inntopia.travel/ecomm/package/packagebuilder/662777/en-us/?packageid=58715&startDate=2022-09-09&endDate=2022-09-11&adultcount=2&childCount=0&forceChoice=1&childAgeArray=&promocode=Neuburger-Howard" target="_blank">RESERVE CLAY BROOK HOTEL ONLINE</Button>
         <TextBlock>There are also a number of local inns and B&B's in the area.</TextBlock>
         <SubText>Note that many of the local accommodations will likely not be availble to book until 2022.</SubText>

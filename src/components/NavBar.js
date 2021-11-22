@@ -34,8 +34,7 @@ const Date = styled.h3`
     @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@600&display=swap');
 
     color: #34494c;
-    font-family: 'Poppins';
-    font-size: 1.25rem;
+gi    font-size: 1.25rem;
     letter-spacing: 4px;
     margin: 0 0 2.5rem 0;
 `;
