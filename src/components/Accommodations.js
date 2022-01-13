@@ -124,11 +124,13 @@ const Accommodations = () => {
     <Wrapper>
         <Header>Accommodations</Header>
         <DiscountWrapper>
-          <TextBlock>For <GreenText>20% off</GreenText> the regular rate, you can stay right on the mountain (also where the reception is) at Sugarbush's
-            <GreenText> Clay Brook Hotel</GreenText>
+          <TextBlock>For <GreenText>20% off</GreenText> the regular rate, you can stay right on the mountain either at Sugarbush's
+            <GreenText> Clay Brook Hotel</GreenText> (where the reception is), <GreenText> The Sugar Lodge</GreenText> (0.5miles from the reception), or at variety of privately owened owned 1-3BR condos.
           </TextBlock>
           <SubText>The Clay Brook offers single rooms with 1 king bed, as well as 1, 2, and 3 bedroom conodos.</SubText>
-          <SubText>Note that all rooms and condos at the Clay Brook require a<GreenSubText> 2 night minimum  </GreenSubText>stay.</SubText>
+          <SubText>The Sugar Lodge offers a classic country inn comforting vibe with single rooms each containing 2 double beds.</SubText>
+          <br />
+          <SubText>Note that all rooms and condos on Sugarbush property require a<GreenSubText> 2 night minimum  </GreenSubText>stay.</SubText>
         </DiscountWrapper>
         <BookingText>To book online and have your 20% discount automatically applied, click the button below.</BookingText>
         <BookingText>You may also call
@@ -142,9 +144,9 @@ const Accommodations = () => {
           <UrgentWarrningText>If the specific room/condo you'd like to reserve is not listed as available online, there is a good chance it is still availble to book.</UrgentWarrningText>
           <UrgentWarrningText>In this case, please call to make your reservation.</UrgentWarrningText>
         </WarningTextWrapper>
-        <Button href="https://www.inntopia.travel/ecomm/package/packagebuilder/662777/en-us/?packageid=58715&startDate=2022-09-09&endDate=2022-09-11&adultcount=2&childCount=0&forceChoice=1&childAgeArray=&promocode=Neuburger-Howard" target="_blank">RESERVE CLAY BROOK HOTEL ONLINE</Button>
+        <Button href="https://www.inntopia.travel/ecomm/package/packagebuilder/662777/en-us/?packageid=58715&startDate=2022-09-09&endDate=2022-09-11&adultcount=2&childCount=0&forceChoice=1&childAgeArray=&promocode=Neuburger-Howard" target="_blank">RESERVE SUGARBUSH PROPERTIES ONLINE</Button>
         <TextBlock>There are also a number of local inns and B&B's in the area.</TextBlock>
-        <SubText>Note that many of the local accommodations will likely not be availble to book until 2022.</SubText>
+        <SubText>Note that many of the local accommodations will likely not be availble to book until spring 2022.</SubText>
         <Button href="https://www.sugarbush.com/plan-your-trip/lodging/valley-lodging-directory" target="_blank">LIST OF ADDITIONAL LODGING OPTIONS</Button>
     </Wrapper>
   );
