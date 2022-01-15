@@ -125,7 +125,7 @@ const Accommodations = () => {
         <Header>Accommodations</Header>
         <DiscountWrapper>
           <TextBlock>For <GreenText>20% off</GreenText> the regular rate, you can stay right on the mountain either at Sugarbush's
-            <GreenText> Clay Brook Hotel</GreenText> (where the reception is), <GreenText> The Sugar Lodge</GreenText> (0.5miles from the reception), or at variety of privately owened owned 1-3BR condos.
+            <GreenText> Clay Brook Hotel</GreenText> (where the reception is), <GreenText> The Sugar Lodge</GreenText> (0.5miles from the reception), or at a variety of privately owned 1-3BR condos.
           </TextBlock>
           <SubText>The Clay Brook offers single rooms with 1 king bed, as well as 1, 2, and 3 bedroom conodos.</SubText>
           <SubText>The Sugar Lodge offers a classic country inn comforting vibe with single rooms each containing 2 double beds.</SubText>
