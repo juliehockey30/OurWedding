@@ -141,7 +141,7 @@ const Accommodations = () => {
         </BookingText>
         <WarningTextWrapper>
           <UrgentWarrningText>PLEASE NOTE! Sugarbush's online booking system may not reflect the most up to date availability for rooms.</UrgentWarrningText>
-          <UrgentWarrningText>If the specific room/condo you'd like to reserve is not listed as available online, please call one of Sugarbush's vacation specialists directly at (802)583-6300 and they can assist you with making your reservation.</UrgentWarrningText>
+          <UrgentWarrningText>If the specific room/condo you'd like to reserve is not listed as available online, please call one of Sugarbush's vacation specialists directly at (802) 583-6300 so they may assist you with making your reservation.</UrgentWarrningText>
         </WarningTextWrapper>
         <Button href="https://www.inntopia.travel/ecomm/package/packagebuilder/662777/en-us/?packageid=58715&startDate=2022-09-09&endDate=2022-09-11&adultcount=2&childCount=0&forceChoice=1&childAgeArray=&promocode=Neuburger-Howard" target="_blank">RESERVE SUGARBUSH PROPERTIES ONLINE</Button>
         <TextBlock>There are also a number of local inns and B&B's in the area.</TextBlock>
