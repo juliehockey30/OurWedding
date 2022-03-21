@@ -6,7 +6,7 @@ import KP from '../assets/KP.JPG'
 import Wulfie from '../assets/Wulfie.JPG'
 import Erik from '../assets/Erik.jpg'
 import Sam from '../assets/Sam.JPG'
-import Sean from '../assets/Sean.jpeg'
+import Sean from '../assets/Sean.jpg'
 import Tim from '../assets/Tim.jpg'
 
 const ToggleWrapper = styled.div`
